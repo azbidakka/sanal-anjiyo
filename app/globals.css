@@ -1,0 +1,270 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   TUSA Hastanesi — Sanal Anjiyo landing page tasarım sistemi
+   ========================================================================== */
+
+@theme {
+  --color-green-900: #0a5135;
+  --color-green-800: #0d6734;
+  --color-green-700: #0a6a39;
+  --color-green-600: #17814a;
+  --color-green-100: #eaf3ee;
+  --color-green-050: #f4f8f5;
+  --color-ink: #141816;
+  --color-text: #323834;
+  --color-muted: #6e756f;
+  --color-line: #dde5df;
+  --color-offwhite: #f7f8f6;
+
+  --font-sans: var(--font-poppins), "Segoe UI", system-ui, sans-serif;
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+
+  --shadow-soft: 0 18px 50px rgba(10, 81, 53, 0.08);
+  --shadow-lift: 0 24px 60px rgba(10, 81, 53, 0.12);
+
+  --radius-card: 20px;
+  --radius-media: 28px;
+}
+
+@layer base {
+  :root {
+    --header-h: 76px;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-h) + 16px);
+  }
+
+  body {
+    background: #ffffff;
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* Mobil sabit CTA barının içeriği kapatmaması için */
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
+  @media (min-width: 768px) {
+    body {
+      padding-bottom: 0;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-ink);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: var(--color-green-100);
+    color: var(--color-green-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-green-800);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+/* --------------------------------------------------------- layout yardımcıları */
+
+@utility container-page {
+  width: min(1280px, 100% - 32px);
+  margin-inline: auto;
+
+  @media (min-width: 768px) {
+    width: min(1280px, 100% - 48px);
+  }
+}
+
+@utility section-y {
+  padding-block: 72px;
+
+  @media (min-width: 768px) {
+    padding-block: 100px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-block: 132px;
+  }
+}
+
+@utility measure {
+  max-width: 850px;
+}
+
+/* --------------------------------------------------------- tipografi ölçekleri */
+
+@utility h1-display {
+  font-size: clamp(2.5rem, 6.2vw, 4.4rem);
+  line-height: 1.06;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+@utility h2-display {
+  font-size: clamp(2rem, 4.2vw, 3.25rem);
+  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+@utility h3-display {
+  font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+@utility lead {
+  font-size: clamp(1.0625rem, 1.25vw, 1.1875rem);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/**
+ * Başlıklarda kullanılan italik serif vurgu.
+ * İçerikte * ... * arasına alınan bölüm bu stille ve alt satırda gösterilir.
+ */
+@utility accent-display {
+  display: block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.06em;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+}
+
+/* --------------------------------------------------------- bileşen yardımcıları */
+
+@utility btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 56px;
+  padding-inline: 28px;
+  border-radius: 999px;
+  background: var(--color-green-800);
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  transition: background-color 220ms ease, transform 220ms ease, box-shadow 220ms ease;
+
+  &:hover {
+    background: #084d29;
+    box-shadow: 0 14px 30px rgba(10, 81, 53, 0.18);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+}
+
+@utility btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 56px;
+  padding-inline: 26px;
+  border-radius: 999px;
+  border: 1px solid var(--color-line);
+  background: #fff;
+  color: var(--color-ink);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  transition: border-color 220ms ease, background-color 220ms ease;
+
+  &:hover {
+    border-color: var(--color-green-800);
+    background: var(--color-green-050);
+  }
+}
+
+@utility card-surface {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  background: #fff;
+  transition: border-color 260ms ease, box-shadow 260ms ease, transform 260ms ease;
+}
+
+@utility field {
+  width: 100%;
+  height: 54px;
+  border: 1px solid var(--color-line);
+  border-radius: 14px;
+  background: #fff;
+  padding-inline: 16px;
+  font-size: 0.9375rem;
+  color: var(--color-ink);
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+
+  &::placeholder {
+    color: #a3aaa5;
+  }
+
+  &:hover {
+    border-color: #c3d0c7;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--color-green-800);
+    box-shadow: 0 0 0 4px rgba(13, 103, 52, 0.08);
+  }
+}
+
+/* --------------------------------------------------------- scroll reveal */
+
+/* JS yoksa içerik her zaman görünür kalır (ilerlemeli iyileştirme). */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}

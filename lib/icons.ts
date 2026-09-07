@@ -1,0 +1,80 @@
+import {
+  Activity,
+  Award,
+  Baby,
+  Boxes,
+  Building2,
+  CalendarCheck,
+  CheckCircle2,
+  ClipboardCheck,
+  ClipboardList,
+  Clock,
+  Coffee,
+  Droplets,
+  FileText,
+  GitBranch,
+  Heart,
+  HeartPulse,
+  Info,
+  Layers,
+  type LucideIcon,
+  MapPin,
+  Microscope,
+  Phone,
+  Pill,
+  ScanLine,
+  ShieldAlert,
+  ShieldCheck,
+  Stethoscope,
+  Syringe,
+  TrendingUp,
+  UserCheck,
+  UserRound,
+  Users,
+  UtensilsCrossed,
+} from "lucide-react";
+
+/** Panelden seçilebilen ikonlar. Yeni ikon eklemek için buraya kaydedin. */
+export const iconRegistry = {
+  Activity,
+  Award,
+  Baby,
+  Boxes,
+  Building2,
+  CalendarCheck,
+  CheckCircle2,
+  ClipboardCheck,
+  ClipboardList,
+  Clock,
+  Coffee,
+  Droplets,
+  FileText,
+  GitBranch,
+  Heart,
+  HeartPulse,
+  Info,
+  Layers,
+  MapPin,
+  Microscope,
+  Phone,
+  Pill,
+  ScanLine,
+  ShieldAlert,
+  ShieldCheck,
+  Stethoscope,
+  Syringe,
+  TrendingUp,
+  UserCheck,
+  UserRound,
+  Users,
+  UtensilsCrossed,
+} satisfies Record<string, LucideIcon>;
+
+export type IconName = keyof typeof iconRegistry;
+
+export const iconNames = Object.keys(iconRegistry) as IconName[];
+
+/** Bilinmeyen ada güvenli bir ikon döndürür; sayfa asla kırılmaz. */
+export function getIcon(name: string): LucideIcon {
+  return iconRegistry[name as IconName] ?? Activity;
+}

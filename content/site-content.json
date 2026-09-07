@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "title": "Sanal Anjiyo (Koroner BT Anjiyografi) | TUSA Hastanesi",
+    "description": "Sanal Anjiyo (Koroner BT Anjiyografi) hakkında bilgi alın. Koroner damarların BT ile görüntülenmesi, işlem süreci, hazırlık ve sık sorulan sorular. TUSA Hastanesi, Tuzla.",
+    "keywords": [
+      "sanal anjiyo",
+      "koroner bt anjiyografi",
+      "koroner bt",
+      "koroner ct anjiyo",
+      "kalp tomografisi",
+      "koroner damar görüntüleme",
+      "sanal anjiyo Tuzla",
+      "sanal anjiyo İstanbul",
+      "koroner BT Tuzla"
+    ]
+  },
+  "contact": {
+    "hospitalName": "TUSA Hastanesi",
+    "phoneDisplay": "0216 581 42 00",
+    "phoneE164": "+902165814200",
+    "addressStreet": "Aydıntepe Mah. Güzin Sok. No: 6",
+    "addressDistrict": "Tuzla",
+    "addressCity": "İstanbul",
+    "mapsQuery": "TUSA Hastanesi Tuzla İstanbul",
+    "corporateUrl": "https://tusahastanesi.com"
+  },
+  "header": {
+    "ctaLabel": "Bilgi Al",
+    "nav": [
+      {
+        "label": "Sanal Anjiyo",
+        "href": "#sanal-anjiyo"
+      },
+      {
+        "label": "Kimler İçin?",
+        "href": "#kimler-icin"
+      },
+      {
+        "label": "Süreç",
+        "href": "#surec"
+      },
+      {
+        "label": "Sık Sorulanlar",
+        "href": "#sss"
+      },
+      {
+        "label": "İletişim",
+        "href": "#iletisim"
+      }
+    ]
+  },
+  "hero": {
+    "label": "TUSA Hastanesi · Koroner BT Anjiyografi",
+    "title": "Kalbinizin damarlarını, girişimsel işlem olmadan görüntüleyen *ileri BT teknolojisi.*",
+    "description": "Sanal Anjiyo (Koroner BT Anjiyografi), kalbi besleyen koroner damarların bilgisayarlı tomografi ile ayrıntılı olarak görüntülenmesini sağlayan bir inceleme yöntemidir. Uygunluk, kişinin klinik durumu ve hekim değerlendirmesi doğrultusunda belirlenir.",
+    "ctaPrimary": "Sanal Anjiyo Hakkında Bilgi Al",
+    "trustLine": "TUSA Hastanesi · Tuzla / İstanbul",
+    "image": "/images/hero.webp",
+    "imageAlt": "Bilgisayarlı tomografi cihazı ve koroner damarların üç boyutlu görüntülemesini gösteren kalp modeli",
+    "badgeTitle": "Koroner CTA",
+    "badgeText": "LAD · LCX · RCA değerlendirmesi"
+  },
+  "trustStrip": {
+    "items": []
+  },
+  "whatIs": {
+    "label": "01 · Sanal Anjiyo",
+    "title": "Koroner damarların ayrıntılı görüntülenmesine yardımcı olan *BT incelemesi.*",
+    "paragraph1": "Sanal Anjiyo, tıbbi adıyla Koroner BT Anjiyografi (CCTA), kalbi besleyen koroner arterlerin bilgisayarlı tomografi ile görüntülenmesini sağlayan tanısal bir incelemedir. İşlem sırasında kol damarından iyot içeren kontrast madde verilir ve kalp ile koroner damarların kesitsel görüntüleri elde edilir.",
+    "paragraph2": "Elde edilen görüntüler farklı düzlemlerde ve üç boyutlu olarak değerlendirilebilir. İnceleme; koroner damarların anatomisi, damar duvarındaki plaklar ve olası daralmalar hakkında hekime bilgi sağlayabilir.",
+    "note": "Sanal Anjiyo tek başına herkes için uygun bir yöntem değildir. İncelemenin gerekliliği ve uygunluğu; belirtiler, risk faktörleri, önceki tetkikler ve genel sağlık durumu birlikte değerlendirilerek hekim tarafından belirlenir.",
+    "cards": [
+      {
+        "number": "01",
+        "icon": "HeartPulse",
+        "title": "Koroner damar görüntüleme",
+        "text": "Kalbi besleyen damarların anatomisi bilgisayarlı tomografi görüntüleri üzerinden ayrıntılı biçimde değerlendirilebilir."
+      },
+      {
+        "number": "02",
+        "icon": "Boxes",
+        "title": "3D değerlendirme",
+        "text": "BT verileri farklı düzlemlerde ve üç boyutlu görüntüler halinde incelenebilir."
+      },
+      {
+        "number": "03",
+        "icon": "ScanLine",
+        "title": "Katetersiz görüntüleme",
+        "text": "Klasik koroner anjiyografiden farklı olarak kasık veya el bileğindeki atardamara kateter ilerletilmesi gerekmez."
+      },
+      {
+        "number": "04",
+        "icon": "UserCheck",
+        "title": "Kişiye özel uygunluk",
+        "text": "Kalp hızı, böbrek fonksiyonları, kontrast madde öyküsü ve klinik durum işlem öncesinde değerlendirilir."
+      }
+    ]
+  },
+  "candidates": {
+    "label": "02 · Değerlendirme",
+    "title": "Sanal Anjiyo *kimler için değerlendirilebilir?*",
+    "intro": "Koroner BT Anjiyografi özellikle koroner arter hastalığı açısından değerlendirme gereken bazı hastalarda hekim tarafından tercih edilebilir. Her hastada aynı yöntem uygun değildir.",
+    "cards": [
+      {
+        "icon": "HeartPulse",
+        "title": "Göğüs ağrısı değerlendirmesi",
+        "text": "Koroner arter hastalığını düşündürebilecek göğüs ağrısı veya benzeri yakınmaları bulunan kişilerde klinik değerlendirmeye katkı sağlayabilir."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Düşük–orta klinik risk",
+        "text": "Koroner arter hastalığı açısından düşük veya orta risk grubunda bulunan bazı hastalarda tanısal değerlendirme amacıyla kullanılabilir."
+      },
+      {
+        "icon": "Activity",
+        "title": "Belirsiz önceki testler",
+        "text": "EKG, efor testi veya diğer incelemelerin sonucu klinik soruyu yeterince açıklamadığında hekim tarafından değerlendirilebilir."
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Koroner damar anatomisi",
+        "text": "Doğuştan koroner damar anomalilerinin veya damarların anatomik seyrinin değerlendirilmesinde kullanılabilir."
+      },
+      {
+        "icon": "ClipboardList",
+        "title": "Cerrahi öncesi planlama",
+        "text": "Bazı kalp veya damar girişimleri öncesinde anatomik değerlendirme amacıyla istenebilir."
+      },
+      {
+        "icon": "Stethoscope",
+        "title": "Hekim kararı",
+        "text": "Hangi görüntüleme yönteminin uygun olduğuna yalnızca mevcut belirtiler değil, kişinin tüm klinik durumu değerlendirilerek karar verilir."
+      }
+    ],
+    "footnote": "Bu içerik genel bilgilendirme amaçlıdır; muayene veya kişiye özel tıbbi değerlendirme yerine geçmez."
+  },
+  "process": {
+    "label": "03 · Süreç",
+    "title": "Sanal Anjiyo *süreci nasıl ilerler?*",
+    "image": "/images/surec-bt.webp",
+    "imageAlt": "Radyoloji kontrol odasında bilgisayarlı tomografi görüntülerini değerlendiren sağlık profesyoneli",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ön değerlendirme",
+        "text": "İşlem öncesinde mevcut hastalıklar, kullanılan ilaçlar, bilinen alerjiler ve böbrek fonksiyonları değerlendirilir. Gebelik ihtimali varsa sağlık ekibine mutlaka bildirilmelidir."
+      },
+      {
+        "number": "02",
+        "title": "Hazırlık",
+        "text": "Kalp görüntülerinin netliği için kalp hızının uygun aralıkta olması gerekebilir. Hekim gerekli görürse kalp hızını düzenleyen ilaçlar kullanılabilir. İşlem öncesi yeme-içme ve kafein konusunda hastaya özel talimat verilir."
+      },
+      {
+        "number": "03",
+        "title": "Görüntüleme",
+        "text": "Kol damarına damar yolu açılır. Kontrast madde verilirken BT cihazı ile kalp ve koroner damarların görüntüleri alınır. Göğse EKG elektrotları yerleştirilebilir ve kısa süre nefes tutmanız istenebilir."
+      },
+      {
+        "number": "04",
+        "title": "Değerlendirme",
+        "text": "Elde edilen görüntüler uzman hekim tarafından incelenir. Damarların seyri, plak varlığı ve olası daralmalar klinik bilgilerle birlikte değerlendirilir."
+      }
+    ]
+  },
+  "comparison": {
+    "label": "04 · Karşılaştırma",
+    "title": "Sanal Anjiyo ile klasik koroner anjiyografi *aynı işlem değildir.*",
+    "columnFeature": "Özellik",
+    "columnVirtual": "Sanal Anjiyo / Koroner BT",
+    "columnClassic": "Klasik Koroner Anjiyografi",
+    "rows": [
+      {
+        "feature": "Temel yöntem",
+        "virtual": "Bilgisayarlı tomografi",
+        "classic": "Kateter tabanlı anjiyografi"
+      },
+      {
+        "feature": "Damar erişimi",
+        "virtual": "Kol damarından IV kontrast",
+        "classic": "Atardamara kateter ile giriş"
+      },
+      {
+        "feature": "Amaç",
+        "virtual": "Tanısal görüntüleme",
+        "classic": "Tanı ve gerektiğinde aynı seansta tedavi"
+      },
+      {
+        "feature": "Stent / balon",
+        "virtual": "Yapılamaz",
+        "classic": "Uygun durumda yapılabilir"
+      },
+      {
+        "feature": "Görüntü",
+        "virtual": "Koroner damarların BT görüntüsü",
+        "classic": "Kateter ile verilen kontrastın X-ray görüntüsü"
+      },
+      {
+        "feature": "Uygunluk",
+        "virtual": "Hekim değerlendirmesi gerekir",
+        "classic": "Hekim değerlendirmesi gerekir"
+      }
+    ],
+    "note": "Koroner BT Anjiyografi girişimsel olmayan bir görüntüleme yöntemidir; ancak saptanan bir darlığa aynı işlem sırasında balon veya stent uygulanmaz. Gerekli görülürse ileri değerlendirme veya klasik koroner anjiyografi planlanabilir."
+  },
+  "preparation": {
+    "label": "05 · Hazırlık",
+    "title": "Sanal Anjiyo öncesinde *nelere dikkat edilir?*",
+    "items": [
+      {
+        "icon": "Pill",
+        "title": "Kullanılan ilaçlar",
+        "text": "Düzenli kullandığınız ilaçları işlem öncesinde hekiminizle paylaşın. İlaçlarınızı kendi kararınızla bırakmayın."
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "Kontrast madde alerjisi",
+        "text": "Daha önce iyotlu kontrast maddeye karşı reaksiyon yaşadıysanız sağlık ekibini bilgilendirin."
+      },
+      {
+        "icon": "Droplets",
+        "title": "Böbrek fonksiyonları",
+        "text": "Kontrast madde kullanımı nedeniyle böbrek hastalığı veya böbrek fonksiyon bozukluğu öyküsü önemlidir."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Kafein",
+        "text": "İşlem öncesinde kahve, çay, enerji içeceği veya kafein içeren ürünlerin sınırlandırılması istenebilir. Size verilen özel talimata uyun."
+      },
+      {
+        "icon": "UtensilsCrossed",
+        "title": "Açlık",
+        "text": "İnceleme öncesinde belirli bir süre yemek yememeniz istenebilir. Hazırlık süresi kişiye ve merkezin protokolüne göre değişebilir."
+      },
+      {
+        "icon": "Baby",
+        "title": "Gebelik",
+        "text": "Gebelik veya gebelik ihtimali varsa görüntüleme öncesinde mutlaka sağlık ekibine bildirilmelidir."
+      }
+    ],
+    "note": "Hazırlık talimatları hastanın klinik durumuna göre değişebilir. Kesin hazırlık bilgisi randevu sırasında sağlık ekibi tarafından paylaşılmalıdır."
+  },
+  "ctaBanner": {
+    "eyebrow": "Kalp sağlığınız için",
+    "title": "Sanal Anjiyo hakkında merak ettiklerinizi *bize sorun.*",
+    "text": "Koroner BT Anjiyografi süreci, hazırlık ve randevu hakkında bilgi almak için iletişim bilgilerinizi bırakabilirsiniz.",
+    "image": "/images/cta-banner.webp",
+    "imageAlt": "Modern bilgisayarlı tomografi cihazı ve görüntüleme masası",
+    "formTitle": "Size Ulaşalım",
+    "formText": "Bilgilerinizi bırakın, ekibimiz süreç hakkında sizinle iletişime geçsin.",
+    "submitLabel": "Bilgi Al"
+  },
+  "hospital": {
+    "label": "06 · TUSA Hastanesi",
+    "title": "Kalp sağlığı değerlendirmesinde *hastane ortamında bütüncül yaklaşım.*",
+    "intro": "Sanal Anjiyo süreci yalnızca görüntünün alınmasından ibaret değildir. Hastanın klinik bilgileri, görüntüleme gerekliliği, işlem öncesi güvenlik kontrolleri ve sonuçların hekim tarafından değerlendirilmesi sürecin bir bütünüdür.",
+    "image": "/images/tusa-bina.webp",
+    "imageAlt": "TUSA Hastanesi ön cephesi",
+    "items": []
+  },
+  "doctors": {
+    "label": "07 · Hekimlerimiz",
+    "title": "Sanal Anjiyo değerlendirme sürecinde *Kardiyoloji ve Radyoloji bir arada.*",
+    "intro": "Koroner BT Anjiyografi sürecinde klinik gerekliliğin değerlendirilmesi ile görüntülerin radyolojik olarak incelenmesi birbirini tamamlayan aşamalardır. TUSA Hastanesi'nde süreç ilgili uzmanlık alanlarının değerlendirmesi doğrultusunda planlanır.",
+    "profileLabel": "Profili İncele",
+    "infoLabel": "Bilgi Al",
+    "list": [
+      {
+        "id": "guray-alicik",
+        "title": "Uzm. Dr.",
+        "name": "Güray ALİCİK",
+        "specialty": "Kardiyoloji",
+        "image": "/images/doctors/guray-alicik.webp",
+        "profileUrl": "https://tusahastanesi.com/doktor/guray-alicik",
+        "description": "Koroner arter hastalıkları ve kalp-damar sistemi değerlendirmelerinde Kardiyoloji Uzmanı."
+      },
+      {
+        "id": "baran-baytar",
+        "title": "Uzm. Dr.",
+        "name": "Baran BAYTAR",
+        "specialty": "Radyoloji",
+        "image": "/images/doctors/baran-baytar.webp",
+        "profileUrl": "https://tusahastanesi.com/doktor/baran-baytar",
+        "description": "Bilgisayarlı tomografi ve ileri görüntüleme yöntemlerinin değerlendirilmesinde Radyoloji Uzmanı."
+      }
+    ]
+  },
+  "tech": {
+    "label": "Teknoloji",
+    "title": "Bir görüntüden fazlası: *kalbin damar yapısına ayrıntılı bakış.*",
+    "text": "Koroner BT Anjiyografide elde edilen kesitsel görüntüler, çok düzlemli ve üç boyutlu rekonstrüksiyonlarla değerlendirilebilir. Bu yaklaşım, koroner damar anatomisinin farklı açılardan incelenmesine yardımcı olur.",
+    "image": "/images/coronary-tree.webp",
+    "imageAlt": "Koroner arterlerin (RCA, LM/LCA, LCX, LAD) dallanmasını gösteren tıbbi illüstrasyon",
+    "stats": [
+      {
+        "key": "YÜKSEK ÇÖZÜNÜRLÜK",
+        "value": "İnce damar yapılarında detaylı görüntüleme"
+      },
+      {
+        "key": "3D REKONSTRÜKSİYON",
+        "value": "Damarların farklı açılardan incelenmesi"
+      },
+      {
+        "key": "GELİŞMİŞ ANALİZ",
+        "value": "Koroner anatomiyi bütüncül değerlendirme"
+      }
+    ]
+  },
+  "faq": {
+    "label": "08 · Sık Sorulanlar",
+    "title": "Sanal Anjiyo hakkında *sık sorulan sorular*",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Sanal Anjiyo nedir?",
+        "answer": "Sanal Anjiyo, diğer adıyla Koroner BT Anjiyografi, kalbi besleyen koroner damarların bilgisayarlı tomografi kullanılarak görüntülenmesini sağlayan tanısal bir incelemedir."
+      },
+      {
+        "id": "faq-2",
+        "question": "Sanal Anjiyo ile klasik anjiyo arasındaki fark nedir?",
+        "answer": "Sanal Anjiyoda görüntüleme BT cihazı ile yapılır ve atardamar içerisine kateter ilerletilmez. Klasik koroner anjiyografide ise kateter kullanılır ve uygun durumlarda aynı seansta balon veya stent gibi tedaviler uygulanabilir."
+      },
+      {
+        "id": "faq-3",
+        "question": "Sanal Anjiyoda kontrast madde kullanılır mı?",
+        "answer": "Evet. Koroner damarların net görüntülenebilmesi için genellikle kol damarından iyot içeren kontrast madde verilir."
+      },
+      {
+        "id": "faq-4",
+        "question": "İşlem ağrılı mıdır?",
+        "answer": "BT görüntülemesinin kendisi ağrılı değildir. Damar yolu açılması sırasında kısa süreli iğne hissi olabilir. Kontrast madde verildiğinde geçici sıcaklık hissi yaşanabilir."
+      },
+      {
+        "id": "faq-5",
+        "question": "Sanal Anjiyo ne kadar sürer?",
+        "answer": "Görüntüleme bölümü oldukça kısa sürebilir; ancak hazırlık, kalp hızının değerlendirilmesi ve damar yolu işlemleri nedeniyle hastanede geçirilen toplam süre daha uzun olabilir. Net süre kişiye göre değişir."
+      },
+      {
+        "id": "faq-6",
+        "question": "Sanal Anjiyo öncesinde aç olmak gerekir mi?",
+        "answer": "İşlem öncesinde belirli bir süre yemek yememeniz istenebilir. Size özel hazırlık talimatını randevu sırasında sağlık ekibinden almalısınız."
+      },
+      {
+        "id": "faq-7",
+        "question": "Kahve içilebilir mi?",
+        "answer": "Kalp hızını etkileyebileceği için işlem öncesinde kafeinli ürünlerin kullanılmaması istenebilir. Hazırlık konusunda size verilen talimata uyun."
+      },
+      {
+        "id": "faq-8",
+        "question": "Böbrek hastaları Sanal Anjiyo olabilir mi?",
+        "answer": "Kontrast madde kullanıldığı için böbrek fonksiyonları önemlidir. Böbrek hastalığı olan kişilerde uygunluk hekim tarafından kişisel olarak değerlendirilmelidir."
+      },
+      {
+        "id": "faq-9",
+        "question": "Kontrast madde alerjim varsa ne yapmalıyım?",
+        "answer": "Daha önce kontrast maddeye karşı reaksiyon yaşadıysanız bunu işlem öncesinde mutlaka sağlık ekibine bildirin. Uygun yaklaşım hekim tarafından belirlenir."
+      },
+      {
+        "id": "faq-10",
+        "question": "Sanal Anjiyo sonucunda stent takılabilir mi?",
+        "answer": "Hayır. Sanal Anjiyo tanısal bir BT incelemesidir. Stent veya balon işlemi yapılmaz. Böyle bir tedavinin gerekli görülmesi halinde klasik koroner anjiyografi gibi girişimsel yöntemler ayrıca planlanır."
+      },
+      {
+        "id": "faq-11",
+        "question": "Her göğüs ağrısında Sanal Anjiyo yapılır mı?",
+        "answer": "Hayır. Göğüs ağrısının pek çok farklı nedeni olabilir. Hangi testin gerekli olduğuna kişinin şikâyeti, risk profili, muayenesi ve önceki tetkikleri birlikte değerlendirilerek karar verilir."
+      },
+      {
+        "id": "faq-12",
+        "question": "Sanal Anjiyo radyasyon içerir mi?",
+        "answer": "Evet. Bilgisayarlı tomografi X-ışını kullanır. İncelemenin gerekliliği değerlendirilirken beklenen tanısal yarar ve radyasyon maruziyeti birlikte dikkate alınır."
+      }
+    ]
+  },
+  "contactSection": {
+    "label": "09 · İletişim",
+    "title": "Sanal Anjiyo hakkında *bilgi almak ister misiniz?*",
+    "intro": "Koroner BT Anjiyografi değerlendirme süreci ve randevu hakkında bilgi almak için bizimle iletişime geçebilirsiniz.",
+    "appointmentLabel": "Randevu",
+    "appointmentText": "Randevu ve hazırlık bilgisi sağlık ekibimizce paylaşılır.",
+    "kvkkLabel": "Kişisel verilerimin iletişim talebimin değerlendirilmesi amacıyla işlenmesine ilişkin",
+    "formNote": "Bu form üzerinden sağlık durumunuza ilişkin özel nitelikli kişisel veri paylaşmanız gerekmez. Tanı ve tedaviye yönelik değerlendirme yalnızca hekim muayenesi ile yapılır.",
+    "submitLabel": "Bilgi Al",
+    "successTitle": "Talebiniz Alındı",
+    "successText": "Talebiniz alındı. Ekibimiz sizinle iletişime geçecektir."
+  },
+  "location": {
+    "label": "Konum",
+    "callLabel": "Ara",
+    "directionsLabel": "Yol Tarifi",
+    "mapButtonLabel": "Haritayı Göster"
+  },
+  "legal": {
+    "pages": [
+      {
+        "id": "kvkk",
+        "title": "Kişisel Verilerin Korunması",
+        "updatedAt": "Ağustos 2026",
+        "body": "TUSA Hastanesi, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") kapsamında veri sorumlusu sıfatıyla hareket eder ve hasta, refakatçi, ziyaretçi ve çalışanlarına ait kişisel verileri hukuka uygun biçimde işlemeyi taahhüt eder.\n\n## Temel ilkeler\n\n- Hukuka ve dürüstlük kurallarına uygun işleme\n- Doğru ve gerektiğinde güncel olma\n- Belirli, açık ve meşru amaçlar için işleme\n- İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olma\n- Mevzuatta öngörülen veya işlendikleri amaç için gerekli süre kadar muhafaza\n\n## Bu web sitesi kapsamında işlenen veriler\n\nsanalanjiyo.tusahastanesi.com bir bilgilendirme sayfasıdır. Bu sayfa üzerinden yalnızca iletişim formunda paylaştığınız ad-soyad, telefon ve isteğe bağlı olarak e-posta ile mesaj bilgileri işlenir. Detaylı bilgilendirme için [Aydınlatma Metni](/aydinlatma-metni) sayfasını inceleyebilirsiniz.\n\n## Veri güvenliği\n\nKişisel verilerin hukuka aykırı olarak işlenmesini ve verilere hukuka aykırı erişimi önlemek amacıyla uygun teknik ve idari tedbirler alınır; erişim yetkileri görev tanımlarıyla sınırlandırılır.\n\n## İlgili kişi başvurusu\n\nKVKK m.11 kapsamındaki haklarınıza ilişkin taleplerinizi yazılı olarak hastanemize iletebilirsiniz. Başvurunuz, talebin niteliğine göre en geç otuz gün içinde sonuçlandırılır."
+      },
+      {
+        "id": "gizlilik",
+        "title": "Gizlilik Politikası",
+        "updatedAt": "Ağustos 2026",
+        "body": "Bu gizlilik politikası, sanalanjiyo.tusahastanesi.com adresini ziyaret ettiğinizde hangi bilgilerin toplandığını ve bu bilgilerin nasıl kullanıldığını açıklar.\n\n## Toplanan bilgiler\n\n- İletişim formunu doldurmanız halinde ilettiğiniz ad-soyad, telefon ve isteğe bağlı e-posta ile mesaj bilgileri\n- Sayfaya hangi kampanya veya bağlantı üzerinden ulaştığınızı gösteren ve tarayıcınızın oturum belleğinde tutulan UTM parametreleri\n- Sunucu kayıtlarında oluşan teknik bilgiler (talep zamanı, tarayıcı türü gibi)\n\n## Bilgilerin kullanımı\n\nToplanan bilgiler yalnızca iletişim talebinizin değerlendirilmesi, randevu ve süreç hakkında bilgilendirme yapılması ve hizmet kalitesinin geliştirilmesi amacıyla kullanılır. Talebiniz, hastanemizin kurumsal e-posta adresine bildirim olarak iletilir. Bilgileriniz pazarlama amacıyla üçüncü taraflara satılmaz veya kiralanmaz.\n\n## Üçüncü taraf içerikleri\n\nSayfadaki harita alanı yalnızca siz talep ettiğinizde yüklenir; bu durumda ilgili harita sağlayıcısının kendi gizlilik koşulları geçerli olur.\n\n## Çerezler\n\nÇerez kullanımına ilişkin ayrıntılar için [Çerez Politikası](/cerez-politikasi) sayfasını inceleyebilirsiniz.\n\n## Değişiklikler\n\nBu politika gerektiğinde güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır."
+      },
+      {
+        "id": "cerez-politikasi",
+        "title": "Çerez Politikası",
+        "updatedAt": "Ağustos 2026",
+        "body": "Çerezler, ziyaret ettiğiniz web siteleri tarafından tarayıcınıza kaydedilen küçük metin dosyalarıdır. Bu sayfa, sanalanjiyo.tusahastanesi.com adresinde çerez ve benzeri teknolojilerin nasıl kullanıldığını açıklar.\n\n## Kullanılan teknolojiler\n\n- Zorunlu kayıtlar: Sayfanın çalışması ve güvenliği için gereken teknik kayıtlar.\n- Oturum belleği (sessionStorage): Sayfaya hangi kampanya bağlantısı üzerinden ulaştığınızı gösteren UTM bilgileri, yalnızca tarayıcı sekmeniz açık olduğu sürece saklanır ve sekme kapandığında silinir.\n- Üçüncü taraf içerik: Harita alanını görüntülemeyi seçmeniz halinde ilgili sağlayıcı kendi çerezlerini kullanabilir.\n\n## Reklam ve profilleme\n\nBu sayfada, ziyaretçilerin sağlık durumuna ilişkin profil oluşturmaya yönelik çerez kullanılmaz.\n\n## Çerez tercihlerinizi yönetme\n\nTarayıcınızın ayarlar bölümünden çerezleri silebilir, engelleyebilir veya çerez kaydedildiğinde uyarı almayı seçebilirsiniz. Zorunlu kayıtların engellenmesi halinde sayfanın bazı bölümleri beklendiği gibi çalışmayabilir."
+      },
+      {
+        "id": "aydinlatma-metni",
+        "title": "Aydınlatma Metni",
+        "updatedAt": "Ağustos 2026",
+        "body": "Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") kapsamında, sanalanjiyo.tusahastanesi.com adresinde yer alan iletişim formları aracılığıyla paylaştığınız kişisel verilerin hangi amaçla işlendiği konusunda sizi bilgilendirmek amacıyla hazırlanmıştır. Veri sorumlusu TUSA Hastanesi'dir.\n\n## İşlenen kişisel veriler\n\n- Kimlik bilgisi: ad ve soyad\n- İletişim bilgisi: telefon numarası ve (paylaşmanız halinde) e-posta adresi\n- Talep içeriği: form üzerinden ilettiğiniz mesaj metni\n- İşlem güvenliği ve kampanya takibi amacıyla oturum boyunca saklanan bağlantı kaynağı (UTM) bilgileri\n\n## İşleme amaçları\n\n- İletişim talebinizin değerlendirilmesi ve size geri dönüş yapılması\n- Randevu ve süreç hakkında bilgilendirme yapılması\n- Talep ve şikâyetlerin takibi ile hizmet kalitesinin geliştirilmesi\n\n## Hukuki sebep\n\nKişisel verileriniz; KVKK m.5/2-(c) kapsamında bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması, m.5/2-(f) kapsamında veri sorumlusunun meşru menfaati ve talebinizi iletirken vermiş olduğunuz açık rıza çerçevesinde işlenmektedir.\n\n## Özel nitelikli veriler\n\nİletişim formu üzerinden sağlık durumunuza ilişkin özel nitelikli kişisel veri paylaşmanız gerekmemektedir. Tanı ve tedaviye yönelik değerlendirme yalnızca hekim muayenesi ile yapılır. Formda paylaştığınız bilgiler yalnızca sizinle iletişime geçilmesi amacıyla kullanılır.\n\n## Aktarım\n\nKişisel verileriniz, yalnızca yukarıdaki amaçlarla sınırlı olmak üzere hastanemizin kurumsal e-posta altyapısında saklanır; hizmet aldığımız bilgi teknolojileri ve çağrı yönetimi tedarikçilerine, yasal yükümlülükler kapsamında ise yetkili kamu kurum ve kuruluşlarına aktarılabilir.\n\n## Saklama süresi\n\nTalebinizin sonuçlandırılması için gerekli süre boyunca ve ilgili mevzuatta öngörülen saklama süreleri dikkate alınarak muhafaza edilir; sürenin sona ermesi halinde silinir, yok edilir veya anonim hale getirilir.\n\n## İlgili kişi hakları\n\nKVKK m.11 uyarınca kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, eksik veya yanlış işlenmiş verilerin düzeltilmesini, silinmesini veya yok edilmesini isteme ve işlemenin kanuna aykırı olması nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme haklarına sahipsiniz."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Kalp sağlığı, görüntüleme ve tanı süreçlerinde hasta güvenliğini merkeze alan sağlık hizmeti.",
+    "pagesTitle": "Sayfalar",
+    "legalTitle": "Yasal",
+    "legalLinks": [
+      {
+        "label": "KVKK",
+        "href": "/kvkk"
+      },
+      {
+        "label": "Gizlilik",
+        "href": "/gizlilik"
+      },
+      {
+        "label": "Çerez Politikası",
+        "href": "/cerez-politikasi"
+      },
+      {
+        "label": "Aydınlatma Metni",
+        "href": "/aydinlatma-metni"
+      }
+    ],
+    "disclaimer": "Bu web sitesindeki içerikler genel bilgilendirme amacı taşımaktadır. Tanı ve tedavi için hekiminize başvurunuz.",
+    "copyright": "© 2026 TUSA Hastanesi"
+  }
+}
