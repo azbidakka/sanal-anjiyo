@@ -1,0 +1,29 @@
+# /etc/systemd/system/sanalanjiyo.service
+# systemctl daemon-reload && systemctl enable --now sanalanjiyo
+
+[Unit]
+Description=TUSA Sanal Anjiyo (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+User=deploy
+WorkingDirectory=/var/www/sanalanjiyo
+EnvironmentFile=/var/www/sanalanjiyo/.env.local
+Environment=NODE_ENV=production
+Environment=PORT=3000
+# Yalnızca yerel arayüze bağlanır; dışarıya nginx açar.
+ExecStart=/usr/bin/npx next start -H 127.0.0.1 -p 3000
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/sanalanjiyo/app.log
+StandardError=append:/var/log/sanalanjiyo/error.log
+
+# Sıkılaştırma
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/var/www/sanalanjiyo /var/www/sanalanjiyo-data /var/log/sanalanjiyo
+
+[Install]
+WantedBy=multi-user.target
