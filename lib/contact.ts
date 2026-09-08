@@ -95,16 +95,27 @@ export function formatPhone(value: string): string {
 
 export type SubmitResult = { ok: true } | { ok: false; message: string };
 
+/** Uygulamanın kendi uç noktası; ortam değişkeni gerektirmez. */
+const DEFAULT_ENDPOINT = "/api/contact";
+
 /**
- * Formları tek bir noktadan gönderir. Uç nokta adresi
- * `NEXT_PUBLIC_CONTACT_ENDPOINT` ile tanımlanır; tanımlı değilse talep
- * yerelde kabul edilir ve gereksiz ağ isteği yapılmaz.
+ * Formları tek bir noktadan gönderir.
+ *
+ * Uç nokta varsayılan olarak uygulamayla birlikte gelen `/api/contact`
+ * adresidir. `NEXT_PUBLIC_CONTACT_ENDPOINT` yalnızca başka bir adrese
+ * yönlendirmek için kullanılır; boş bırakılırsa ağ isteği yapılmaz
+ * (backend'siz önizleme içindir).
+ *
+ * Not: NEXT_PUBLIC_* değişkenleri derleme anında koda gömülür. Uç noktayı
+ * bu değişkene zorunlu kılmak, derlemenin ortam dosyası olmayan bir
+ * makinede yapılması hâlinde formu sessizce devre dışı bırakıyordu.
  */
 export async function submitContact(
   payload: ContactPayload,
 ): Promise<SubmitResult> {
   const body: ContactPayload = { ...payload, ...readUtmParams() };
-  const endpoint = process.env.NEXT_PUBLIC_CONTACT_ENDPOINT;
+  const endpoint =
+    process.env.NEXT_PUBLIC_CONTACT_ENDPOINT ?? DEFAULT_ENDPOINT;
 
   if (endpoint) {
     try {
