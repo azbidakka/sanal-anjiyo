@@ -116,17 +116,31 @@ export default function MailSettingsForm({ settings, hasPassword }: Props) {
           <label htmlFor="mail-port" className="mb-2 block text-sm font-medium text-ink">
             Port
           </label>
-          <select
+          <input
             id="mail-port"
             name="port"
+            type="number"
+            min={1}
+            max={65535}
+            required
+            list="mail-port-secenekleri"
             value={port}
             onChange={(event) => setPort(event.target.value)}
             className="field !h-11 text-sm"
-          >
-            <option value="587">587 — STARTTLS (önerilen)</option>
-            <option value="25">25 — şifresiz / iç relay</option>
-            <option value="465">465 — örtük TLS</option>
-          </select>
+          />
+          <datalist id="mail-port-secenekleri">
+            <option value="587">STARTTLS (önerilen)</option>
+            <option value="465">Örtük TLS</option>
+            <option value="25">Şifresiz / iç relay</option>
+            <option value="2525">
+              Alternatif — sağlayıcı 587&apos;yi engelliyorsa
+            </option>
+          </datalist>
+          <p className="mt-1.5 text-xs leading-relaxed text-muted">
+            587 standarttır. Barındırma sağlayıcınız giden SMTP&apos;yi
+            engelliyorsa, posta sunucusunu 2525 gibi bir portta dinletip o
+            portu buraya yazabilirsiniz. 465 seçilirse örtük TLS kullanılır.
+          </p>
         </div>
 
         <div>
