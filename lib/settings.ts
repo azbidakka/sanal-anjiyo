@@ -48,7 +48,9 @@ export const defaultSettings: Settings = {
     secure: false,
     requireTls: true,
     rejectUnauthorized: true,
-    user: "info@tusahastanesi.com",
+    // Exchange oturum açma adı, SMTP adresinden farklıdır:
+    // posta alanı tusahastanesi.com, Active Directory alanı gisbirhastanesi.local.
+    user: "info@gisbirhastanesi.local",
     passwordEnc: null,
     fromName: "TUSA Hastanesi — Sanal Anjiyo",
     fromAddress: "info@tusahastanesi.com",
