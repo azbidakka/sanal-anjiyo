@@ -320,19 +320,14 @@
         "answer": "Sanal Anjiyoda görüntüleme BT cihazı ile yapılır ve atardamar içerisine kateter ilerletilmez. Klasik koroner anjiyografide ise kateter kullanılır ve uygun durumlarda aynı seansta balon veya stent gibi tedaviler uygulanabilir."
       },
       {
-        "id": "faq-3",
-        "question": "Sanal Anjiyoda kontrast madde kullanılır mı?",
-        "answer": "Evet. Koroner damarların net görüntülenebilmesi için genellikle kol damarından iyot içeren kontrast madde verilir."
+        "id": "faq-11",
+        "question": "Her göğüs ağrısında Sanal Anjiyo yapılır mı?",
+        "answer": "Hayır. Göğüs ağrısının pek çok farklı nedeni olabilir. Hangi testin gerekli olduğuna kişinin şikâyeti, risk profili, muayenesi ve önceki tetkikleri birlikte değerlendirilerek karar verilir."
       },
       {
-        "id": "faq-4",
-        "question": "İşlem ağrılı mıdır?",
-        "answer": "BT görüntülemesinin kendisi ağrılı değildir. Damar yolu açılması sırasında kısa süreli iğne hissi olabilir. Kontrast madde verildiğinde geçici sıcaklık hissi yaşanabilir."
-      },
-      {
-        "id": "faq-5",
-        "question": "Sanal Anjiyo ne kadar sürer?",
-        "answer": "Görüntüleme bölümü oldukça kısa sürebilir; ancak hazırlık, kalp hızının değerlendirilmesi ve damar yolu işlemleri nedeniyle hastanede geçirilen toplam süre daha uzun olabilir. Net süre kişiye göre değişir."
+        "question": "Efor testi yaptırdım, yine de bu inceleme gerekir mi?",
+        "answer": "Efor testi ve Koroner BT Anjiyografi farklı bilgiler sağlar; biri diğerinin yerine geçmez. Hangi tetkikin gerekli olduğuna, önceki sonuçlarınız, şikâyetleriniz ve risk profiliniz birlikte değerlendirilerek hekiminiz karar verir.",
+        "id": "efor-testi-yaptirdim-yine-de-bu-inceleme-gerekir-m"
       },
       {
         "id": "faq-6",
@@ -345,9 +340,19 @@
         "answer": "Kalp hızını etkileyebileceği için işlem öncesinde kafeinli ürünlerin kullanılmaması istenebilir. Hazırlık konusunda size verilen talimata uyun."
       },
       {
-        "id": "faq-8",
-        "question": "Böbrek hastaları Sanal Anjiyo olabilir mi?",
-        "answer": "Kontrast madde kullanıldığı için böbrek fonksiyonları önemlidir. Böbrek hastalığı olan kişilerde uygunluk hekim tarafından kişisel olarak değerlendirilmelidir."
+        "question": "Kalp hızımın yüksek olması sorun olur mu?",
+        "answer": "Koroner damarların net görüntülenebilmesi için kalp hızının uygun aralıkta olması önemlidir. Hekim gerekli görürse işlem öncesinde kalp hızını düzenleyen ilaçlar kullanılabilir. Kalp hızınız uygun değilse inceleme başka bir güne planlanabilir.",
+        "id": "kalp-hizimin-yuksek-olmasi-sorun-olur-mu"
+      },
+      {
+        "question": "Şeker hastasıyım ve metformin kullanıyorum, ilacıma ara vermeli miyim?",
+        "answer": "Kontrast madde kullanılan incelemelerde metformin içeren ilaçlar için hekiminiz size özel bir talimat verebilir. İlacınızı kendi kararınızla bırakmayın; kullandığınız tüm ilaçları ve şeker hastalığı öykünüzü işlem öncesinde sağlık ekibiyle paylaşın.",
+        "id": "seker-hastasiyim-ve-metformin-kullaniyorum-ilacima"
+      },
+      {
+        "id": "faq-3",
+        "question": "Sanal Anjiyoda kontrast madde kullanılır mı?",
+        "answer": "Evet. Koroner damarların net görüntülenebilmesi için genellikle kol damarından iyot içeren kontrast madde verilir."
       },
       {
         "id": "faq-9",
@@ -355,19 +360,74 @@
         "answer": "Daha önce kontrast maddeye karşı reaksiyon yaşadıysanız bunu işlem öncesinde mutlaka sağlık ekibine bildirin. Uygun yaklaşım hekim tarafından belirlenir."
       },
       {
-        "id": "faq-10",
-        "question": "Sanal Anjiyo sonucunda stent takılabilir mi?",
-        "answer": "Hayır. Sanal Anjiyo tanısal bir BT incelemesidir. Stent veya balon işlemi yapılmaz. Böyle bir tedavinin gerekli görülmesi halinde klasik koroner anjiyografi gibi girişimsel yöntemler ayrıca planlanır."
-      },
-      {
-        "id": "faq-11",
-        "question": "Her göğüs ağrısında Sanal Anjiyo yapılır mı?",
-        "answer": "Hayır. Göğüs ağrısının pek çok farklı nedeni olabilir. Hangi testin gerekli olduğuna kişinin şikâyeti, risk profili, muayenesi ve önceki tetkikleri birlikte değerlendirilerek karar verilir."
+        "id": "faq-8",
+        "question": "Böbrek hastaları Sanal Anjiyo olabilir mi?",
+        "answer": "Kontrast madde kullanıldığı için böbrek fonksiyonları önemlidir. Böbrek hastalığı olan kişilerde uygunluk hekim tarafından kişisel olarak değerlendirilmelidir."
       },
       {
         "id": "faq-12",
         "question": "Sanal Anjiyo radyasyon içerir mi?",
         "answer": "Evet. Bilgisayarlı tomografi X-ışını kullanır. İncelemenin gerekliliği değerlendirilirken beklenen tanısal yarar ve radyasyon maruziyeti birlikte dikkate alınır."
+      },
+      {
+        "question": "Gebelik veya emzirme döneminde yapılabilir mi?",
+        "answer": "Gebelik veya gebelik ihtimali varsa görüntüleme öncesinde mutlaka bildirilmelidir; inceleme X-ışını kullanır. Emziriyorsanız bunu da sağlık ekibine belirtin, kontrast madde sonrası izlenecek yol hekiminiz tarafından size özel olarak açıklanır.",
+        "id": "gebelik-veya-emzirme-doneminde-yapilabilir-mi"
+      },
+      {
+        "question": "Kalp pilim veya stentim var, bu inceleme yapılabilir mi?",
+        "answer": "Daha önce geçirilmiş kalp işlemleri, damar içi stentler veya kalp pili varlığı hem incelemenin planlanmasını hem de görüntülerin değerlendirilmesini etkileyebilir. Bu bilgileri randevu sırasında paylaşın; uygunluk hekim tarafından değerlendirilir.",
+        "id": "kalp-pilim-veya-stentim-var-bu-inceleme-yapilabili"
+      },
+      {
+        "id": "faq-4",
+        "question": "İşlem ağrılı mıdır?",
+        "answer": "BT görüntülemesinin kendisi ağrılı değildir. Damar yolu açılması sırasında kısa süreli iğne hissi olabilir. Kontrast madde verildiğinde geçici sıcaklık hissi yaşanabilir."
+      },
+      {
+        "question": "Kapalı alan korkum var, işlem sırasında zorlanır mıyım?",
+        "answer": "Bilgisayarlı tomografi cihazı halka biçimindedir; kapalı bir tünel değildir ve görüntüleme bölümü kısa sürer. Yine de kaygı duyuyorsanız işlem öncesinde sağlık ekibine bildirin, size uygun yaklaşım birlikte planlanır.",
+        "id": "kapali-alan-korkum-var-islem-sirasinda-zorlanir-mi"
+      },
+      {
+        "id": "faq-5",
+        "question": "Sanal Anjiyo ne kadar sürer?",
+        "answer": "Görüntüleme bölümü oldukça kısa sürebilir; ancak hazırlık, kalp hızının değerlendirilmesi ve damar yolu işlemleri nedeniyle hastanede geçirilen toplam süre daha uzun olabilir. Net süre kişiye göre değişir."
+      },
+      {
+        "question": "İşlemden sonra nelere dikkat etmeliyim?",
+        "answer": "Çoğu kişide inceleme sonrasında günlük yaşama dönülebilir. Kontrast madde böbrekler yoluyla vücuttan uzaklaştırıldığı için hekiminiz bol su içmenizi önerebilir. Kalp hızını düzenleyen ilaç kullanıldıysa araç kullanımı gibi konularda size özel öneri verilebilir.",
+        "id": "islemden-sonra-nelere-dikkat-etmeliyim"
+      },
+      {
+        "question": "Sonuçlarım ne zaman hazır olur?",
+        "answer": "Elde edilen görüntüler uzman hekim tarafından incelenip raporlanır. Raporlama süresi incelemenin kapsamına ve merkezin iş akışına göre değişebilir; net bilgi randevu sırasında sağlık ekibi tarafından paylaşılır.",
+        "id": "sonuclarim-ne-zaman-hazir-olur"
+      },
+      {
+        "question": "Sonucum normal çıkarsa ne anlama gelir?",
+        "answer": "Koroner damarlarda belirgin bir daralma saptanmaması hekiminizin klinik değerlendirmesine katkı sağlar. Bulguların sizin için ne ifade ettiği; şikâyetleriniz, muayeneniz ve diğer tetkikleriniz birlikte ele alınarak hekiminiz tarafından yorumlanır.",
+        "id": "sonucum-normal-cikarsa-ne-anlama-gelir"
+      },
+      {
+        "question": "Damarımda darlık saptanırsa süreç nasıl ilerler?",
+        "answer": "Bulgunun derecesine ve klinik durumunuza göre ilaç tedavisi, yaşam tarzı önerileri, ileri tetkik veya klasik koroner anjiyografi gibi seçenekler değerlendirilebilir. Hangi yolun uygun olduğuna hekiminiz sizinle birlikte karar verir.",
+        "id": "damarimda-darlik-saptanirsa-surec-nasil-ilerler"
+      },
+      {
+        "id": "faq-10",
+        "question": "Sanal Anjiyo sonucunda stent takılabilir mi?",
+        "answer": "Hayır. Sanal Anjiyo tanısal bir BT incelemesidir. Stent veya balon işlemi yapılmaz. Böyle bir tedavinin gerekli görülmesi halinde klasik koroner anjiyografi gibi girişimsel yöntemler ayrıca planlanır."
+      },
+      {
+        "question": "İşlem için randevu nasıl alınır?",
+        "answer": "Koroner BT Anjiyografi, hekim değerlendirmesi sonrasında planlanan bir incelemedir. Süreç, hazırlık ve randevu hakkında bilgi almak için bu sayfadaki iletişim formunu doldurabilir veya hastanemizi telefonla arayabilirsiniz.",
+        "id": "islem-icin-randevu-nasil-alinir"
+      },
+      {
+        "question": "İnceleme sigorta kapsamında mı?",
+        "answer": "Kapsam; incelemenin tıbbi gerekçesine, kuruma ve poliçe koşullarına göre değişir. Güncel ve size özel bilgi için randevu öncesinde hastanemizle iletişime geçebilirsiniz.",
+        "id": "inceleme-sigorta-kapsaminda-mi"
       }
     ]
   },
