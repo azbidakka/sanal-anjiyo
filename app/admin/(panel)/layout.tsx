@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+// Panel sayfaları hiçbir koşulda önceden üretilip önbelleğe alınmamalı.
+export const dynamic = "force-dynamic";
+
 export default async function PanelLayout({
   children,
 }: {
