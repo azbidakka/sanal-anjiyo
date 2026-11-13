@@ -5,6 +5,14 @@ export const siteConfig = {
   ogImage: "/images/og.jpg",
   logo: "/images/brand/tusa-logo.png",
   logoWhite: "/images/brand/tusa-logo-white.png",
+
+  /**
+   * Google Tag Manager konteyner kimliği.
+   * Depoda sabit tutulur: NEXT_PUBLIC_* değişkenleri derleme anında gömüldüğü
+   * için, ortam dosyası bulunmayan bir makinede derlenirse sessizce devre dışı
+   * kalırdı. Boş bırakılırsa GTM hiç yüklenmez.
+   */
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-K9QV37M3",
 } as const;
 
 /**
